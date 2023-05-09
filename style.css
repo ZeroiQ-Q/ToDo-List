@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container-align {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.label {
+  font: normal bold 32px arial !important;
+  color: #565656;
+  margin: 10px;
+}
+
+.list_item,
+.date_style {
+  background: #333333;
+  border: none;
+  padding: 12px 20px;
+  font-weight: bold;
+  color: #a4a4a4;
+  border-radius: 10px;
+  outline: none;
+  text-transform: uppercase;
+}
+
+.add_list,
+.delete_button {
+  margin-left: 12px;
+  width: 80px;
+  padding: 12px 10px;
+  border-radius: 10px;
+  border: none;
+  font: normal bold 14px arial !important;
+  background: rgb(5, 116, 5);
+  color: rgb(240, 232, 232);
+  cursor: pointer;
+}
+.delete_button {
+  background-color: rgba(243, 89, 89, 0.862);
+  color: rgb(240, 232, 232);
+}
+.result {
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  align-items: center;
+  justify-items: start;
+  gap: 10px;
+  margin-top: 12px;
+  text-transform: uppercase;
+  color: #626262;
+  font-weight: bold;
+  line-height: 24px;
+}
+.container {
+  width: max-content;
+  margin-top: 20px;
+  border: 3px solid #333333;
+  border-radius: 6px;
+  padding: 10px 15px 20px 15px;
+}
+.grids {
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  align-items: center;
+  justify-items: start;
+  gap: 10px;
+}
